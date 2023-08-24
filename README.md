@@ -1,2 +1,2 @@
 # FryFiesta
-rent a Fryolator
+Rent a Fryolator
