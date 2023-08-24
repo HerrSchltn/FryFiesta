@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1112263_fryfiest_user</description>
+        <name>x_1112263_fryfiest_user</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>Chris</sys_created_by>
+        <sys_created_on>2023-08-24 07:44:11</sys_created_on>
+        <sys_id>85286f5a973031104229b0efe153af3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1112263_fryfiest_user</sys_name>
+        <sys_package display_value="FryFiesta" source="x_1112263_fryfiest">3ea7a71a973031104229b0efe153afe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FryFiesta">3ea7a71a973031104229b0efe153afe5</sys_scope>
+        <sys_update_name>sys_security_acl_85286f5a973031104229b0efe153af3d</sys_update_name>
+        <sys_updated_by>Chris</sys_updated_by>
+        <sys_updated_on>2023-08-24 07:44:11</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FryFiesta">3ea7a71a973031104229b0efe153afe5</application>
+        <file_path/>
+        <instance_id>5574f5abdb9a5f00ff27d5b0cf961996</instance_id>
+        <instance_name>dev60242</instance_name>
+        <name>sys_security_acl_85286f5a973031104229b0efe153af3d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_1112263_fryfiest_user</description><name>x_1112263_fryfiest_user</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Chris</sys_created_by><sys_created_on>2023-08-24 07:44:11</sys_created_on><sys_id>85286f5a973031104229b0efe153af3d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1112263_fryfiest_user</sys_name><sys_package display_value="FryFiesta" source="x_1112263_fryfiest">3ea7a71a973031104229b0efe153afe5</sys_package><sys_policy/><sys_scope display_value="FryFiesta">3ea7a71a973031104229b0efe153afe5</sys_scope><sys_update_name>sys_security_acl_85286f5a973031104229b0efe153af3d</sys_update_name><sys_updated_by>Chris</sys_updated_by><sys_updated_on>2023-08-24 07:44:11</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1233360026</payload_hash>
+        <record_name>x_1112263_fryfiest_user</record_name>
+        <reverted_from/>
+        <source>3aa7a71a973031104229b0efe153afe7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chris</sys_created_by>
+        <sys_created_on>2023-08-24 07:44:11</sys_created_on>
+        <sys_id>c5286f5a973031104229b0efe153af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a268037a80000001</sys_recorded_at>
+        <sys_updated_by>Chris</sys_updated_by>
+        <sys_updated_on>2023-08-24 07:44:11</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>01286f5ac5303110f20dded65578953f</update_guid>
+        <update_guid_history>01286f5ac5303110f20dded65578953f:1233360026</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chris</sys_created_by>
+        <sys_created_on>2023-08-24 11:01:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>2992274a25d644909a64aec1ecbae131</sys_id>
+        <sys_metadata>85286f5a973031104229b0efe153af3d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1112263_fryfiest_user</sys_name>
+        <sys_package display_value="FryFiesta" source="x_1112263_fryfiest">3ea7a71a973031104229b0efe153afe5</sys_package>
+        <sys_parent display_value="">85286f5a973031104229b0efe153af42</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="FryFiesta">3ea7a71a973031104229b0efe153afe5</sys_scope>
+        <sys_scope_delete display_value="">00197ca3d09141c9a0f111981b12da01</sys_scope_delete>
+        <sys_update_name>sys_security_acl_85286f5a973031104229b0efe153af3d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_85286f5a973031104229b0efe153af3d">c5286f5a973031104229b0efe153af3f</sys_update_version>
+        <sys_updated_by>Chris</sys_updated_by>
+        <sys_updated_on>2023-08-24 11:01:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

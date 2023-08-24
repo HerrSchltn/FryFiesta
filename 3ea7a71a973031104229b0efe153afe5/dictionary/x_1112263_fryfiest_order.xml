@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a299efda973031104229b0efe153afc7" label="Order" max_length="40" name="x_1112263_fryfiest_order" type="collection">
-        <element label="FromDate" max_length="40" name="fromdate" type="glide_date"/>
-        <element label="PackageId" max_length="32" name="packageid" reference="x_1112263_fryfiest_package" type="reference"/>
-        <element label="ShippingAddress" max_length="40" name="shippingaddress" type="string"/>
-        <element label="ToDate" max_length="40" name="todate" type="glide_date"/>
-        <element label="UserId" max_length="32" name="userid" reference="x_1112263_fryfiest_user" type="reference"/>
+        <element label="FromDate" mandatory="true" max_length="40" name="fromdate" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="PackageId" mandatory="true" max_length="32" name="packageid" reference="x_1112263_fryfiest_package" type="reference"/>
+        <element label="ShippingAddress" mandatory="true" max_length="40" name="shippingaddress" type="string"/>
+        <element choice="1" default="-10" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="10"/>
+                <element inactive_on_update="false" label="Not Approved" value="-10"/>
+                <element inactive_on_update="false" label="Pending" value="20"/>
+            </choice>
+        </element>
+        <element label="ToDate" mandatory="true" max_length="40" name="todate" type="glide_date"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="packageid"/>
         </index>
         <index name="index2">
-            <element name="userid"/>
+            <element name="user"/>
         </index>
     </element>
 </database>

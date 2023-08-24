@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>
+
+.LandingPage {
+  width: 100vw; 
+  height: 100vh;  
+  background: #E49023;
+}
+
+.MainPic {
+  height: calc(43.205vh); 
+  padding-right: calc(19.453vw); 
+  left: calc(17.361vw); 
+  top: calc(20.408vh); 
+  position: absolute; 
+  justify-content: flex-start; 
+  align-items: center; 
+  display: inline-flex;
+}
+
+
+/* Add further style definitions for other classes... */
+
+.IntroductionText {
+  width: calc(65.611vw); 
+  height: calc(9.276vh); 
+  left: calc(17.361vw); 
+  top: calc(64.286vh); 
+  position: absolute; 
+  text-align: center; 
+  color: white; 
+  font-size: calc(1.5625vw); 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.Navbar {
+  width: 100vw; 
+  height: 50px; 
+  left: 0; 
+  top: 0; 
+  position: absolute; 
+  background: #CC7B11;
+}
+
+.Login, .Vision, .AboutUs, .Pakete {
+  position: absolute; 
+  text-align: center; 
+  color: white; 
+  font-size: calc(1.5625vw); 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.Login {
+  left: calc(81.597vw); 
+  top: calc(2.448vh);
+}
+
+.Vision {
+  left: calc(14.174vw); 
+  top: calc(2.551vh);
+}
+
+.AboutUs {
+  left: calc(34.259vw); 
+  top: calc(2.551vh);
+}
+
+.Pakete {
+  left: calc(24.206vw); 
+  top: calc(2.551vh);
+}
+
+.Logo {
+  width: calc(12.302vw); 
+  height: calc(5.291vh); 
+  left: 0; 
+  top: -1px; 
+  position: absolute;
+}
+
+/* Add further style definitions for .Svgg within Image2vector12 and other classes... */
+
+/* Add more custom styles as needed */
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>ff_home</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>FF Home</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Cenk</sys_created_by>
+        <sys_created_on>2023-08-24 13:44:49</sys_created_on>
+        <sys_id>766af02297b431104229b0efe153af0b</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>FF Home</sys_name>
+        <sys_package display_value="FryFiesta" source="x_1112263_fryfiest">3ea7a71a973031104229b0efe153afe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FryFiesta">3ea7a71a973031104229b0efe153afe5</sys_scope>
+        <sys_update_name>sp_widget_766af02297b431104229b0efe153af0b</sys_update_name>
+        <sys_updated_by>Cenk</sys_updated_by>
+        <sys_updated_on>2023-08-24 14:19:00</sys_updated_on>
+        <template><![CDATA[<div class="LandingPage">
+    <div class="MainPic">
+      <!-- Kommt Bild rein -->
+      </div>
+    </div>
+    <div class="IntroductionText">
+			Doppelt frittieren macht Pommes besonders knusprigSo geht's: Frittieren Sie die Pommes zunächst etwa eine Minute bei 160 Grad. Lassen Sie die Pommes zehn bis fünfzehn Minuten lang abkühlen. Frittieren Sie die Pommes ein zweites Mal - entweder wieder bei 160 Grad oder bei 175 Grad bis sie knusprig und golden sind.    </div>
+    <div class="Navbar"></div>
+    <div class="Login">Login</div>
+    <div class="Vision">Vision</div>
+    <div class="AboutUs">About Us</div>
+    <div class="Pakete">Pakete</div>
+    <div class="Logo">
+      <!-- Kommt Logo rein -->
+    </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

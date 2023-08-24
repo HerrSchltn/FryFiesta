@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="def76b5a973031104229b0efe153af72" label="User" max_length="40" name="x_1112263_fryfiest_user" type="collection">
-        <element label="bankAccountNumber" max_length="40" name="bankaccountnumber" type="string"/>
-        <element label="billingAddress" max_length="40" name="billingaddress" type="string"/>
-        <element label="email" max_length="40" name="email" type="string"/>
-        <element label="name" max_length="40" name="name" type="string"/>
-    </element>
-</database>

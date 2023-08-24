@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">314a7cae977431104229b0efe153afe3</sp_column>
+        <sp_widget display_value="FF Home">766af02297b431104229b0efe153af0b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Cenk</sys_created_by>
+        <sys_created_on>2023-08-24 13:45:51</sys_created_on>
+        <sys_id>4feabc2297b431104229b0efe153af44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FryFiesta" source="x_1112263_fryfiest">3ea7a71a973031104229b0efe153afe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FryFiesta">3ea7a71a973031104229b0efe153afe5</sys_scope>
+        <sys_update_name>sp_instance_4feabc2297b431104229b0efe153af44</sys_update_name>
+        <sys_updated_by>Cenk</sys_updated_by>
+        <sys_updated_on>2023-08-24 13:45:51</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=4feabc2297b431104229b0efe153af44"/>
+</record_update>

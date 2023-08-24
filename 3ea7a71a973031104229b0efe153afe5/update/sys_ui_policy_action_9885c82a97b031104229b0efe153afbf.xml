@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>shippingaddress</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Chris</sys_created_by>
+        <sys_created_on>2023-08-24 09:52:42</sys_created_on>
+        <sys_id>9885c82a97b031104229b0efe153afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shippingaddress</sys_name>
+        <sys_package display_value="FryFiesta" source="x_1112263_fryfiest">3ea7a71a973031104229b0efe153afe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FryFiesta">3ea7a71a973031104229b0efe153afe5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9885c82a97b031104229b0efe153afbf</sys_update_name>
+        <sys_updated_by>Chris</sys_updated_by>
+        <sys_updated_on>2023-08-24 09:52:42</sys_updated_on>
+        <table>x_1112263_fryfiest_order</table>
+        <ui_policy display_value="Display ShippingAddress">bf45082a97b031104229b0efe153afbe</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

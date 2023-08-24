@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>FryFiestaHomepage - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="home">28d1542697f031104229b0efe153afdd</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>Cenk</sys_created_by>
+        <sys_created_on>2023-08-24 11:34:03</sys_created_on>
+        <sys_id>dcccd862973431104229b0efe153af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FryFiestaHomepage - Container 1</sys_name>
+        <sys_package display_value="FryFiesta" source="x_1112263_fryfiest">3ea7a71a973031104229b0efe153afe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FryFiesta">3ea7a71a973031104229b0efe153afe5</sys_scope>
+        <sys_update_name>sp_container_dcccd862973431104229b0efe153af21</sys_update_name>
+        <sys_updated_by>Cenk</sys_updated_by>
+        <sys_updated_on>2023-08-24 11:34:03</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>
