@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a299efda973031104229b0efe153afc7" label="Order" max_length="40" name="x_1112263_fryfiest_order" type="collection">
+        <element label="FromDate" max_length="40" name="fromdate" type="glide_date"/>
+        <element label="PackageId" max_length="32" name="packageid" reference="x_1112263_fryfiest_package" type="reference"/>
+        <element label="ShippingAddress" max_length="40" name="shippingaddress" type="string"/>
+        <element label="ToDate" max_length="40" name="todate" type="glide_date"/>
+        <element label="UserId" max_length="32" name="userid" reference="x_1112263_fryfiest_user" type="reference"/>
+        <index name="index">
+            <element name="packageid"/>
+        </index>
+        <index name="index2">
+            <element name="userid"/>
+        </index>
+    </element>
+</database>

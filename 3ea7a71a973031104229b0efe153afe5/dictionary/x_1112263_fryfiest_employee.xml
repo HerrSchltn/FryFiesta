@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e38c6bde973031104229b0efe153aff6" label="Employee" max_length="40" name="x_1112263_fryfiest_employee" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

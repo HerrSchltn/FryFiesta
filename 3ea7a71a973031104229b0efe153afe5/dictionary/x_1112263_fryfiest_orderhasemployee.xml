@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="06bc6fde973031104229b0efe153afd8" label="OrderHasEmployee" max_length="40" name="x_1112263_fryfiest_orderhasemployee" type="collection">
+        <element label="EmployeeId" max_length="32" name="employeeid" reference="x_1112263_fryfiest_employee" type="reference"/>
+        <element label="OrderId" max_length="32" name="orderid" reference="x_1112263_fryfiest_order" type="reference"/>
+        <index name="index">
+            <element name="employeeid"/>
+        </index>
+        <index name="index2">
+            <element name="orderid"/>
+        </index>
+    </element>
+</database>

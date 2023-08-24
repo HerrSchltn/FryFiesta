@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Chris</sys_created_by>
+        <sys_created_on>2023-08-24 08:05:07</sys_created_on>
+        <sys_id>23ec6312977031104229b0efe153af2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1112263_fryfiest_orderhasemployee.x_1112263_fryfiest.orderhasemployee_user</sys_name>
+        <sys_package display_value="FryFiesta" source="x_1112263_fryfiest">3ea7a71a973031104229b0efe153afe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FryFiesta">3ea7a71a973031104229b0efe153afe5</sys_scope>
+        <sys_security_acl display_value="x_1112263_fryfiest_orderhasemployee">2bec6312977031104229b0efe153af27</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_23ec6312977031104229b0efe153af2a</sys_update_name>
+        <sys_updated_by>Chris</sys_updated_by>
+        <sys_updated_on>2023-08-24 08:05:07</sys_updated_on>
+        <sys_user_role display_value="x_1112263_fryfiest.orderhasemployee_user" name="x_1112263_fryfiest.orderhasemployee_user">d7ece3de973031104229b0efe153af59</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="490de312977031104229b0efe153af70" label="PackageHasFryer" max_length="40" name="x_1112263_fryfiest_packagehasfryer" type="collection">
+        <element label="FryerId" max_length="32" name="fryerid" reference="x_1112263_fryfiest_fryer" type="reference"/>
+        <element label="PackageId" max_length="32" name="packageid" reference="x_1112263_fryfiest_package" type="reference"/>
+        <index name="index">
+            <element name="fryerid"/>
+        </index>
+        <index name="index2">
+            <element name="packageid"/>
+        </index>
+    </element>
+</database>

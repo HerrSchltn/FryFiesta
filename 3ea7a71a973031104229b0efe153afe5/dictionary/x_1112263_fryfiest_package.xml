@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7eeb239e973031104229b0efe153af7c" label="Package" max_length="40" name="x_1112263_fryfiest_package" type="collection">
+        <element label="Desciption" max_length="40" name="desciption" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
